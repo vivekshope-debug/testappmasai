@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Test App", layout="Centered")
+st.set_page_config(page_title="Test App", layout="centered")
 
 st.title ("Streamlist App is working")
 
@@ -11,4 +11,4 @@ name = st.text_inout("Enter your name:")
 if name:
   st. success(f"Hello {name}, your streamli app ia live")
 
-st.button ("click me")
+st.button ("Click me")
